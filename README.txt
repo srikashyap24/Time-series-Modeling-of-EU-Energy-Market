@@ -7,7 +7,7 @@ Files in the Project:
 1. project.ipynb - Contains data cleaning, preprocessing, exploratory data analysis (EDA), and the SARIMA model implementation.
 2. XGBoost.ipynb - Implements the XGBoost model for predicting negative price events.
 3. LSTM.ipynb - Implements the LSTM model for time-series forecasting.
-4. EU_energy_data.csv - The original dataset containing energy market data for European countries.
+4. EU_energy_data.csv - The original dataset containing energy market data for European countries.(!!!Unfortunately cannot be uploaded due to large size!!!!!)
 5. denmark_data.csv - Filtered dataset containing only Denmark's energy market data.
 6. denmark_data_new.csv - Dataset after feature engineering applied to Denmark's data.
 7. lstm_model.h5 - Saved LSTM model file.
