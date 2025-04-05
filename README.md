@@ -10,11 +10,11 @@ The increasing integration of renewable energy sources in European markets has r
 The methodology for this study follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework, which is widely used for structured data mining projects. 
 The CRISP-DM framework consists of six main phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. Below is a breakdown of how each phase is applied in this study:
 
-### Business Understanding:
+### 1.Business Understanding:
 
 The principal objective of this study is to design a comprehensive and effective predictive framework for identifying and analyzing negative electricity price events within the European energy market. The study focuses on improving the accuracy of forecasts and conducting an in-depth exploration of the factors that influence the onset, duration, and recovery of such events. By generating actionable insights, this research aims to strengthen risk management practices and promote the stability and resilience of energy markets. This is particularly critical given the increasing integration of renewable energy sources, and the findings are intended to support informed decision-making among market participants and policymakers while addressing the challenges posed by price volatility.
 
-### Data Understanding:
+### 2.Data Understanding:
 
 This study utilizes the European Union Energy Market Data dataset, which consists of electricity price records across multiple European countries, covering various timestamps. Key attributes include date, hour, country, price (in EUR per MWh), energy type (green or non-green), and currency type. Preliminary exploration revealed several important characteristics and anomalies. The is-green-energy attribute serves as a binary indicator, identifying whether the energy source is classified as green. The hour attribute is within the valid range of 1 to 24, ensuring proper time representation. Notably, negative price values are present, indicating market conditions where electricity prices drop below zero. Additionally, the currency-type attribute consists of values 1 and 2, corresponding to EUR and USD, respectively. The dataset initially contained the date attribute in an object format, which was converted to a datetime format for enhanced usability. No missing values were identified, ensuring data completeness.
 
@@ -38,7 +38,7 @@ In this study, we aslo analyzed the dynamics of negative electricity prices, foc
 
 Moreover, we found that higher electricity prices correlate with higher price volatility, where price swings become more pronounced during periods of high prices. In contrast, when prices are very low, including negative prices, volatility tends to remain relatively stable, with less dramatic fluctuations. Interestingly, price spikes above 1000 EUR/MWh were associated with extremely high volatility, indicating sudden and unpredictable price changes. These observations are essential for understanding the underlying behavior of electricity prices and their volatility, especially in the context of forecasting negative price events.
 
-### Data Preparation:
+### 3.Data Preparation:
 
 To enhance data management and ensure consistency, the column names in the dataset were standardized. The original column names were renamed to more intuitive labels, improving readability and ease of use. Specifically, the column fecha was renamed to date, hora to hour, sistema to EU-country, bandera to is-green-energy, precio to price-eur-per-mwh, tipo-moneda to currency-type.
 
