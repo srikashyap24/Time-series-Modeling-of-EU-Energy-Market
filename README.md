@@ -30,4 +30,11 @@ Electricity price trends varied significantly across countries for the same day 
 
 <img src="figure2.png">
 
+Green energy sources played a significant role in negative pricing events, particularly in the Netherlands, France, and Austria. A comparative analysis of green and non-green energy prices showed that green energy had an average price of 40.96 EUR/MWh, whereas non-green energy was priced higher at an average of 45.30 EUR/MWh. The dataset also contained multiple price records per hour, potentially due to different price zones or market segments, necessitating aggregation for accurate modeling.
+
+Several extreme values or outliers were observed within the dataset. However, given that these extreme price points could represent valid high/low prices due to market fluctuations such as supply \& demand, inflation, or energy crises, we decided to retain them. Additionally, some of these outliers could be seasonal, such as winter or summer spikes in energy demand, and might carry valuable information for forecasting future price trends.
+
+In this study, we aslo analyzed the dynamics of negative electricity prices, focusing on their duration and recovery. The data revealed several significant trends. Negative prices typically do not last long, with most data points concentrated around low durations. When negative prices persist for longer periods, the prices tend to remain low even after the negative period has ended. Additionally, extreme price spikes are often observed when the negative price duration is zero, which suggests that high prices are typically associated with periods where negative prices do not occur at all.
+
+Moreover, we found that higher electricity prices correlate with higher price volatility, where price swings become more pronounced during periods of high prices. In contrast, when prices are very low, including negative prices, volatility tends to remain relatively stable, with less dramatic fluctuations. Interestingly, price spikes above 1000 EUR/MWh were associated with extremely high volatility, indicating sudden and unpredictable price changes. These observations are essential for understanding the underlying behavior of electricity prices and their volatility, especially in the context of forecasting negative price events.
 
