@@ -24,4 +24,4 @@ Electricity price trends varied significantly across countries for the same day 
 
 ### Figure 1:
 
-<img src="">
+<img src="figure1.png">
