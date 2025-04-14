@@ -93,8 +93,14 @@ Among the three models, LSTM demonstrated the best performance, achieving the lo
 
 To further assess model performance, visual analyses were conducted. Figure 3 presents the SARIMA model’s training, test, and forecasted values, illustrating its limitations in capturing price fluctuations. Figure 4 shows the XGBoost model’s actual vs. predicted values, demonstrating its ability to learn patterns but with noticeable prediction errors. Figure 5 visualizes LSTM’s actual vs. predicted values, highlighting its superior performance in capturing price variations. Finally, Figure 6 focuses specifically on LSTM’s predictions for negative price values, showcasing its precision in forecasting such critical events.
 
-## Figure 3
-## Figure 4
-## Figure 5
-## Figure 6
+### Figure 3
+<img src="sarima.png">
+### Figure 4
+<img src="xgboost.png">
+### Figure 5
+<img src="lstm.png">
+### Figure 6
+<img src="lstm.neg">
+
+--- 
 
