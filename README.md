@@ -98,9 +98,9 @@ To further assess model performance, visual analyses were conducted. Figure 3 pr
 ### Figure 4
 <img src="xgboost.png">
 ### Figure 5
-<img src="lstm.png">
+<img src="LSTM.png">
 ### Figure 6
-<img src="lstm.neg">
+<img src="LSTMneg.png">
 
 --- 
 
