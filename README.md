@@ -85,3 +85,16 @@ The dataset was divided into training and testing sets, maintaining an 80:20 spl
 The LSTM model architecture consisted of a single LSTM layer with 64 units and ReLU activation, followed by a dense output layer to generate the final prediction. The model was compiled using the Adam optimizer with a learning rate of 0.001, and the loss function was set to mean squared error (MSE).
 
 Training was conducted over 100 epochs with a batch size of 32, using validation data to monitor performance. After training, predictions were generated on the test set, and the results were inverse-transformed to recover the actual price values.
+
+## RESULTS AND ANALYSIS
+
+The performance of the three forecasting models—SARIMA, XGBoost, and LSTM—was evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). These metrics provide insights into each model's predictive accuracy and reliability.
+Among the three models, LSTM demonstrated the best performance, achieving the lowest MAE, MSE, and RMSE, along with a high R² score of 0.95, indicating strong predictive accuracy. In contrast, SARIMA and XGBoost showed higher error values, suggesting their limitations in capturing the complex temporal dependencies of electricity price fluctuations.
+
+To further assess model performance, visual analyses were conducted. Figure 3 presents the SARIMA model’s training, test, and forecasted values, illustrating its limitations in capturing price fluctuations. Figure 4 shows the XGBoost model’s actual vs. predicted values, demonstrating its ability to learn patterns but with noticeable prediction errors. Figure 5 visualizes LSTM’s actual vs. predicted values, highlighting its superior performance in capturing price variations. Finally, Figure 6 focuses specifically on LSTM’s predictions for negative price values, showcasing its precision in forecasting such critical events.
+
+## Figure 3
+## Figure 4
+## Figure 5
+## Figure 6
+
